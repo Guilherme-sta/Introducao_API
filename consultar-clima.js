@@ -47,7 +47,7 @@ function buscarClima() {
     let resultado = getByID('resultado');
 
     if (cidade === '') {
-        resultado.innerHTML = 'Por favor, informe o nome de uma cidade para buscar.';
+        resultado.innerHTML = 'O contéudo do campo precisa estar preenchido para fazer a consulta.';
 
         setTimeout(function () {
             resultado.innerHTML = '';
