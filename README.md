@@ -21,6 +21,6 @@ Projeto desenvolvido como atividade prática da disciplina de Desenvolvimento We
 
 ## 📡 APIs utilizadas
 
-- [Binance API](https://api.binance.com)
+- [Binance API](https://www.binance.com/pt-BR/binance-api)
 - [YGOProDeck API](https://ygoprodeck.com/api-guide/)
 - [Open-Meteo](https://open-meteo.com)
