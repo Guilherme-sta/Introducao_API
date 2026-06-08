@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Consulta de Clima - Open-Meteo</title>
+  <link rel="stylesheet" href="consultar-clima.css">
+  <script defer src="consultar-clima.js"></script>
+</head>
+<body>
+  <header class="navbar">
+    <div class="nav-container">
+        <nav aria-label="Navegação principal">
+            <a class="logo">Centro de<span> Apis</span></a>
+            <ul class="nav-links">
+                <li><a href="index.html">Criptomoedas</a></li>
+                <li><a href="buscar-carta.html">Yu-Gi-Oh</a></li>
+                <li><a href="consultar-clima.html">Clima</a></li>
+            </ul>
+        </nav>
+    </div>
+  </header>
+
+  <div class="container">
+    <h1>Consulta de Clima</h1>
+
+    <label for="cidade">Cidade:</label>
+    <input type="text" list="sugestoesCidades" id="cidade" placeholder="Ex: Teresina">
+    <datalist id="sugestoesCidades">
+      <option value="Teresina">Teresina</option>
+      <option value="São Paulo">São Paulo</option>
+      <option value="Rio de Janeiro">Rio de Janeiro</option>
+      <option value="Fortaleza">Fortaleza</option>
+      <option value="Brasília">Brasília</option>
+      <option value="Salvador">Salvador</option>
+      <option value="Manaus">Manaus</option>
+      <option value="Recife">Recife</option>
+    </datalist>
+
+    <button id="botaoBuscar">Buscar Clima</button>
+    <button id="botaoLimpar">Limpar</button>
+
+    <div id="resultado"></div>
+  </div>
+</body>
+</html>

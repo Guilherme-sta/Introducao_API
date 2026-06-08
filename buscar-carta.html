@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Consulta de Cartas - Yu-Gi-Oh!</title>
+  <link rel="stylesheet" href="buscar-carta.css">
+  <script defer src="buscar-carta.js"></script>
+</head>
+<body>
+  <header class="navbar">
+    <div class="nav-container">
+        <nav aria-label="Navegação principal">
+            <a class="logo">Centro de<span> Apis</span></a>
+            <ul class="nav-links">
+                <li><a href="index.html">Criptomoedas</a></li>
+                <li><a href="buscar-carta.html">Yu-Gi-Oh</a></li>
+                <li><a href="consultar-clima.html">Clima</a></li>
+            </ul>
+        </nav>
+    </div>
+  </header>
+
+  <div class="container">
+    <h1>Consulta de Cartas Yu-Gi-Oh!</h1>
+
+    <label for="nomeCard">Nome da Carta:</label>
+    <input type="text" list="sugestoesCartas" id="nomeCard" placeholder="Ex: Dark Magician">
+    <datalist id="sugestoesCartas">
+      <option value="Dark Magician">Dark Magician</option>
+      <option value="Blue-Eyes White Dragon">Blue-Eyes White Dragon</option>
+      <option value="Exodia the Forbidden One">Exodia the Forbidden One</option>
+      <option value="Red-Eyes Black Dragon">Red-Eyes Black Dragon</option>
+      <option value="Slifer the Sky Dragon">Slifer the Sky Dragon</option>
+      <option value="Obelisk the Tormentor">Obelisk the Tormentor</option>
+      <option value="The Winged Dragon of Ra">The Winged Dragon of Ra</option>
+      <option value="Black Luster Soldier">Black Luster Soldier</option>
+    </datalist>
+
+    <button id="botaoBuscar">Buscar Carta</button>
+    <button id="botaoLimpar">Limpar</button>
+
+    <div id="resultado"></div>
+  </div>
+</body>
+</html>

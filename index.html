@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Consulta de Preço - Binance</title>
+  <link rel="stylesheet" href="conversao-criptomoedas.css">
+  <script defer src = "conversao-criptomoedas.js"></script>
+</head>
+<body>
+  <header class="navbar">
+    <div class="nav-container">
+      <nav aria-label="Navegação principal">
+        <a class="logo">Centro de<span> Apis</span></a>
+          <ul class="nav-links">
+            <li><a href="index.html">Criptomoedas</a></li>
+            <li><a href="buscar-carta.html">Yu-Gi-Oh</a></li>
+            <li><a href="consultar-clima.html">Clima</a></li>
+          </ul>
+        </nav>
+        </div>
+  </header>
+
+  <div class="container">
+    <h1>Consultar Preço de Moedas</h1>
+    <label for="moedaBase">Moeda Base (Ex.: BTC):</label>
+    <input type="text" list="sugestoesMoedaBase" id="moedaBase" placeholder="Digite a moeda base">
+    <datalist id="sugestoesMoedaBase">
+      <option value="BTC">BTC</option>
+      <option value="ETH">ETH</option>
+      <option value="SOL">SOL</option>
+      <option value="XRP">XRP</option>
+      <option value="DOGE">DOGE</option>
+    </datalist>
+
+    <label for="moedaConversao">Moeda Conversão (Ex.: USDT):</label>
+    <input type="text" list="sugestoesMoedaConversao" id="moedaConversao" placeholder="Digite a moeda de conversão">
+    <datalist id="sugestoesMoedaConversao">
+      <option value="USDT">USDT</option>
+      <option value="BRL">BRL</option>
+    </datalist>
+
+    <button id="botaoConsultar">Consultar</button>
+    <button id="botaoLimpar">Limpar</button>
+    <button id="botaoInverter">Inverter</button>
+
+    <div id="resultado"></div>
+
+  </div>
+
+</body>
+</html>
