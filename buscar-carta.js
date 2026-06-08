@@ -13,7 +13,7 @@ function buscarCarta() {
     let resultado = getByID('resultado');
 
     if (nomeCard === '') {
-        resultado.innerHTML = 'Por favor, informe o nome de uma carta para buscar.';
+        resultado.innerHTML = 'O contéudo do campo precisa estar preenchido para fazer a consulta.';
 
         setTimeout(function () {
             resultado.innerHTML = '';
