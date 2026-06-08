@@ -10,7 +10,7 @@ Projeto desenvolvido como atividade prática da disciplina de Desenvolvimento We
 
 ## 🔗 Acesse o projeto
 
-[GitHub Pages](<link aqui>)
+[GitHub Pages](https://guilherme-sta.github.io/Introducao_API/)
 
 ## 🛠️ Tecnologias
 
